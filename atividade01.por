@@ -1,9 +1,9 @@
 programa
 {
-	inclua biblioteca Util --> u
 	
 	funcao inicio()
-	{		
+	{
+		
 		inteiro numeros[5]
 		inteiro n = 0
 		para(inteiro i = 0; i < 5; i++){
