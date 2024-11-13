@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    inteiro matriz[3][5]
+    inteiro numeros
+    para(inteiro x = 0; x < 3; x++){
+      para(inteiro y = 0; y < 3; y++){
+        escreva("Digite um valor inteiro: ")
+        leia(numeros)
+        matriz[x][y] = numeros
+    }
+    }
+
+    para(inteiro x = 0; x < 3; x++){
+      para(inteiro y = 0; y < 3; y++){
+        se(matriz[x][y] % 2 == 0){
+          escreva("O número ", matriz[x][y], " é par, e ele foi encontrado na linha ", x," e na coluna ", y,"\n")
+        }
+    }
+    }
+  }
+}
